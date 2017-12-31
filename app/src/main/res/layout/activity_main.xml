@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.waqasjutt.androidphpmysql.MainActivity">
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Enter your username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextUsername"/>
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:hint="Enter your password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPassword"/>
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:hint="Enter your email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextEmail"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#fae331"
+        android:text="Register"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:textColorHighlight="@color/colorAccent"
+        android:id="@+id/tvAlreadyUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Already user? \n Click here to login"/>
+
+</LinearLayout>
